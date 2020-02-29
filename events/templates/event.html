@@ -1,0 +1,664 @@
+{%load static %}
+{% load humanize %}
+<head>
+    <link rel="icon" href="{% static 'wp-content/themes/rexal/images/favicon.png' %}" type="image/x-icon">
+    <link rel="icon" href="{% static 'css/single.css' %}" type="image/x-icon">
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+    <title>Home Type 02 &#8211; Rexal</title>
+    <link rel='dns-prefetch' href="{% static 'fonts.googleapis.com/index.html' %}" />
+    <link rel='dns-prefetch' href="{% static 's.w.org/index.html' %}" />
+    <link rel="alternate" type="application/rss+xml" title="Rexal &raquo; Feed" href="../feed/index.html" />
+    <link rel="alternate" type="application/rss+xml" title="Rexal &raquo; Comments Feed" href="../comments/feed/index.html" />
+    <script src="https://kit.fontawesome.com/cebb3c690a.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "http:\/\/www.d.commonsupport.com\/rexal\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.4"
+            }
+        };
+        ! function(a, b, c) {
+            function d(a, b) {
+                var c = String.fromCharCode;
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, a), 0, 0);
+                var d = k.toDataURL();
+                l.clearRect(0, 0, k.width, k.height), l.fillText(c.apply(this, b), 0, 0);
+                var e = k.toDataURL();
+                return d === e
+            }
+    
+            function e(a) {
+                var b;
+                if (!l || !l.fillText) return !1;
+                switch (l.textBaseline = "top", l.font = "600 32px Arial", a) {
+                    case "flag":
+                        return !(b = d([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819])) && (b = d([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]), !b);
+                    case "emoji":
+                        return b = d([55358, 56760, 9792, 65039], [55358, 56760, 8203, 9792, 65039]), !b
+                }
+                return !1
+            }
+    
+            function f(a) {
+                var c = b.createElement("script");
+                c.src = a, c.defer = c.type = "text/javascript", b.getElementsByTagName("head")[0].appendChild(c)
+            }
+            var g, h, i, j, k = b.createElement("canvas"),
+                l = k.getContext && k.getContext("2d");
+            for (j = Array("flag", "emoji"), c.supports = {
+                    everything: !0,
+                    everythingExceptFlag: !0
+                }, i = 0; i < j.length; i++) c.supports[j[i]] = e(j[i]), c.supports.everything = c.supports.everything && c.supports[j[i]], "flag" !== j[i] && (c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && c.supports[j[i]]);
+            c.supports.everythingExceptFlag = c.supports.everythingExceptFlag && !c.supports.flag, c.DOMReady = !1, c.readyCallback = function() {
+                c.DOMReady = !0
+            }, c.supports.everything || (h = function() {
+                c.readyCallback()
+            }, b.addEventListener ? (b.addEventListener("DOMContentLoaded", h, !1), a.addEventListener("load", h, !1)) : (a.attachEvent("onload", h), b.attachEvent("onreadystatechange", function() {
+                "complete" === b.readyState && c.readyCallback()
+            })), g = c.source || {}, g.concatemoji ? f(g.concatemoji) : g.wpemoji && g.twemoji && (f(g.twemoji), f(g.wpemoji)))
+        }(window, document, window._wpemojiSettings);
+    </script>
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' id='wp-block-library-css' href="{% static "wp-includes/css/dist/block-library/style.min58e0.css" %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='contact-form-7-css' href="{% static 'wp-content/plugins/contact-form-7/includes/css/styles3c21.css' %}" ?ver=5.1.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='rs-plugin-settings-css' href="{% static 'wp-content/plugins/revslider/public/assets/css/settings5f94.css' %}" ?ver=5.4.6.3.1' %}" type='text/css' media='all' />
+    <style id='rs-plugin-settings-inline-css' type='text/css'>
+        #rs-demo-id {}
+    </style>
+    <link rel='stylesheet' id='woocommerce-layout-css' href="{% static 'wp-content/plugins/woocommerce/assets/css/woocommerce-layout1aae.css' %}" ?ver=3.5.3' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css' href="{% static 'wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen1aae.css' %}" ?ver=3.5.3' %}" type='text/css' media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css' href="{% static 'wp-content/plugins/woocommerce/assets/css/woocommerce1aae.css' %}" ?ver=3.5.3' %}" type='text/css' media='all' />
+    <style id='woocommerce-inline-inline-css' type='text/css'>
+        .woocommerce form .form-row .required {
+            visibility: visible;
+        }
+    </style>
+    <link rel='stylesheet' id='animate-css' href="{% static 'wp-content/themes/rexal/css/animate58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href="{% static 'wp-content/themes/rexal/css/bootstrap58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='custom-animate-css' href="{% static 'wp-content/themes/rexal/css/custom-animate58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='flaticon-css' href="{% static 'wp-content/themes/rexal/css/flaticon58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='font-awesome-css' href="{% static 'wp-content/themes/rexal/css/font-awesome58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='hover-css' href="{% static 'wp-content/themes/rexal/css/hover58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='fancybox-css' href="{% static 'wp-content/themes/rexal/css/jquery.fancybox.min58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='mcustomscrollbar-css' href="{% static 'wp-content/themes/rexal/css/jquery.mCustomScrollbar.min58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='touchspin-css' href="{% static 'wp-content/themes/rexal/css/jquery.touchspin58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='jquery-ui-css' href="{% static 'wp-content/themes/rexal/css/jquery-ui58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='multi-scroll-css' href="{% static 'wp-content/themes/rexal/css/multi-scroll58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='owl-css' href="{% static 'wp-content/themes/rexal/css/owl58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='style-2-css' href="{% static 'wp-content/themes/rexal/css/style-258e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rexal-extra-css' href="{% static 'wp-content/themes/rexal/css/extra58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rexal-main-style-css' href="{% static 'wp-content/themes/rexal/style58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rexal-responsive-2-css' href="{% static 'wp-content/themes/rexal/css/responsive-258e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rexal-responsive-css' href="{% static 'wp-content/themes/rexal/css/responsive58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rexal-custom-style-css' href="{% static 'wp-content/themes/rexal/css/custom58e0.css' %}" ?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-css' href="{% static 'wp-content/themes/rexal/css/woocommerce58e0.css' %}" s?ver=5.1.4' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='rexal-theme-slug-fonts-css' href="{% static 'wp-content/themes/rexal/fonts/css0526.css' %}" "?family=Open+Sans%3A300%2C300i%2C400%2C400i%2C600%2C600i%2C700%2C700i%2C800%2C800i%7CPoppins%3A300%2C400%2C500%2C600%2C700&amp;subset=latin%2Clatin-ext" type='text/css' media='all' />
+    <link rel='stylesheet' id='kc-general-css' href="{% static 'wp-content/plugins/kingcomposer/assets/frontend/css/kingcomposer.min3b33.css' %}" ?ver=2.7.7' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='kc-animate-css' href="{% static 'wp-content/plugins/kingcomposer/assets/css/animate3b33.css' %}" ?ver=2.7.7' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='kc-icon-1-css' href="{% static 'wp-content/themes/rexal/css/flaticon3b33.css' %}" ?ver=2.7.7' %}" type='text/css' media='all' />
+    <link rel='stylesheet' id='kc-icon-2-css' href="{% static 'wp-content/plugins/kingcomposer/assets/css/icons3b33.css' %}" ?ver=2.7.7' %}" type='text/css' media='all' />
+    <script type='text/javascript' src="{% static 'wp-includes/js/jquery/jqueryb8ff.js' %}" ?ver=1.12.4' %}"></script>
+    <script type='text/javascript' src="{% static 'wp-includes/js/jquery/jquery-migrate.min330a.js' %}" ?ver=1.4.1' %}"></script>
+    <script type='text/javascript' src="{% static 'wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min5f94.js' %}" ?ver=5.4.6.3.1' %}"></script>
+    <script type='text/javascript' src="{% static 'wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min5f94.js' %}" ?ver=5.4.6.3.1' %}"></script>
+    <link rel='https://api.w.org/' href='../wp-json/index.html' />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{% static 'wp-includes/wlwmanifest.xml' %}" />
+    <meta name="generator" content="WordPress 5.1.4" />
+    <meta name="generator" content="WooCommerce 3.5.3" />
+    <link rel="canonical" href="index.html" />
+    <link rel='shortlink' href='../index42dc.html?p=6' />
+    <link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed1bcb.json?url=http%3A%2F%2Fwww.d.commonsupport.com%2Frexal%2Fhome-type-02%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed5bb1?url=http%3A%2F%2Fwww.d.commonsupport.com%2Frexal%2Fhome-type-02%2F&amp;format=xml" />
+    <script type="text/javascript">
+        var kc_script_data = {
+            ajax_url: "http://www.d.commonsupport.com/rexal/wp-admin/admin-ajax.php"
+        }
+    </script> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+    <meta name="generator" content="Powered by Slider Revolution 5.4.6.3.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
+    <script type="text/javascript">
+        function setREVStartSize(e) {
+            try {
+                var i = jQuery(window).width(),
+                    t = 9999,
+                    r = 0,
+                    n = 0,
+                    l = 0,
+                    f = 0,
+                    s = 0,
+                    h = 0;
+                if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
+                        f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+                    }), t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth, h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f), "fullscreen" == e.sliderLayout) {
+                    var u = (e.c.width(), jQuery(window).height());
+                    if (void 0 != e.fullScreenOffsetContainer) {
+                        var c = e.fullScreenOffsetContainer.split(",");
+                        if (c) jQuery.each(c, function(e, i) {
+                            u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+                        }), e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 && (u -= parseInt(e.fullScreenOffset, 0))
+                    }
+                    f = u
+                } else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+                e.c.closest(".rev_slider_wrapper").css({
+                    height: f
+                })
+            } catch (d) {
+                console.log("Failure at Presize of Slider:" + d)
+            }
+        };
+    </script>
+    <script type="text/javascript"></script>
+    <style type="text/css" id="kc-css-general">
+        .kc-off-notice {
+            display: inline-block !important;
+        }
+        
+        .kc-container {
+            max-width: 1170px;
+        }
+    </style>
+    <style type="text/css" id="kc-css-render">
+        @media only screen and (min-width:1000px) and (max-width:5000px) {
+            body.kc-css-system .kc-css-38338 {
+                width: 67%;
+            }
+            body.kc-css-system .kc-css-929250 {
+                width: 33%;
+            }
+        }
+        
+        body.kc-css-system .kc-css-996378 {
+            background: #fafafa;
+            padding-top: 120px;
+        }
+    </style>
+    </head>
+
+    <body class="product-template-default single single-product postid-650 kc-css-system woocommerce woocommerce-page woocommerce-no-js">
+        <!-- =======Body Property  ===-->
+    
+        <div class="body_class">
+            <!-- =======Boxed/FullWidth add extra div in footer ===-->
+            <div class="page-wrapper ">
+    
+                <!-- =======Preloader========= -->
+                <div class="preloader">
+                    <div class="preloader-inner"></div>
+                    <div class="icon"></div>
+                </div>
+                <!-- =======Header Start========= -->
+    
+                <!-- Main Header-->
+    
+                <header class="main-header">
+                    <!-- Main Box -->
+                    <div class="main-box">
+                        <div class="container clearfix">
+                            <!--Logo Box-->
+                            <div class="logo-box">
+                                <div class="logo">
+                                    <a href="../../index.html"><img src="{% static 'wp-content/uploads/2019/01/logo-1.png' %}" alt="Logo" title="Title"></a>
+                                </div>
+                            </div>
+    
+                            <!--Nav Outer-->
+                            <div class="nav-outer has-info-nav-btn clearfix">
+                                <!-- Main Menu -->
+                                <nav class="main-menu">
+                                    <div class="navbar-header">
+                                        <!-- Toggle Button -->
+                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                    </div>
+    
+                                    <div class="navbar-collapse collapse clearfix">
+    
+                                        <ul class="navigation clearfix">
+                                            <li id="menu-item-1359" class="mega-menu menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1359 dropdown"><a title="Home" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart" data-ps2id-api="true">Home</a>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-1334" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-1334"><a title="Home Page 01" href="../../index.html" data-ps2id-api="true">Home Page 01</a></li>
+                                                    <li id="menu-item-1616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1616"><a title="Shop Home 07" href="../../shop-home-three/index.html" data-ps2id-api="true">Shop Home 07</a></li>
+                                                    <li id="menu-item-1335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1335"><a title="Home Page 02" href="../../home-new/index.html" data-ps2id-api="true">Home Page 02</a></li>
+                                                    <li id="menu-item-1692" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1692"><a title="Home One-page 08" href="../../home-onepage/index.html" data-ps2id-api="true">Home One-page 08</a></li>
+                                                    <li id="menu-item-1336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1336"><a title="Home Page 03" href="../../home-type-01/index.html" data-ps2id-api="true">Home Page 03</a></li>
+                                                    <li id="menu-item-1343" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1343"><a title="Home Slide 09" href="../../home-type-08/index.html" data-ps2id-api="true">Home Slide 09</a></li>
+                                                    <li id="menu-item-1337" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1337"><a title="Home Page 04" href="../../home-type-02/index.html" data-ps2id-api="true">Home Page 04</a></li>
+                                                    <li id="menu-item-1339" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1339"><a title="Home Page 10" href="../../home-type-04/index.html" data-ps2id-api="true">Home Page 10</a></li>
+                                                    <li id="menu-item-1617" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1617"><a title="Shop Home 05" href="../../home-shop-02/index.html" data-ps2id-api="true">Shop Home 05</a></li>
+                                                    <li id="menu-item-1341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1341"><a title="Home Portfolio 11" href="../../home-type-06/index.html" data-ps2id-api="true">Home Portfolio 11</a></li>
+                                                    <li id="menu-item-1618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1618"><a title="Shop Home 06" href="../../home-shop/index.html" data-ps2id-api="true">Shop Home 06</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1361" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1361 dropdown"><a title="Pages" href="#" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart" data-ps2id-api="true">Pages</a>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-1360" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1360 dropdown"><a title="About" href="#" data-ps2id-api="true">About</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1320" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1320"><a title="About Us 01" href="../../about-us/index.html" data-ps2id-api="true">About Us 01</a></li>
+                                                            <li id="menu-item-1321" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1321"><a title="About Us 02" href="../../about-us-new/index.html" data-ps2id-api="true">About Us 02</a></li>
+                                                            <li id="menu-item-1450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1450"><a title="About Us 03" href="../../about-three/index.html" data-ps2id-api="true">About Us 03</a></li>
+                                                            <li id="menu-item-1319" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1319"><a title="About Me" href="../../about-me/index.html" data-ps2id-api="true">About Me</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1398 dropdown"><a title="Team" href="../../team/index.html" data-ps2id-api="true">Team</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1357" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1357"><a title="Team Style  01" href="../../team/index.html" data-ps2id-api="true">Team Style  01</a></li>
+                                                            <li id="menu-item-1397" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1397"><a title="Team Style  02" href="../../team-two/index.html" data-ps2id-api="true">Team Style  02</a></li>
+                                                            <li id="menu-item-1396" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1396"><a title="Team Style  03" href="../../1391-2/index.html" data-ps2id-api="true">Team Style  03</a></li>
+                                                            <li id="menu-item-1412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1412"><a title="Team Details" href="../../team-details/index.html" data-ps2id-api="true">Team Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1429 dropdown"><a title="Testimonials" href="../../testimonials/index.html" data-ps2id-api="true">Testimonials</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1428" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1428"><a title="Testimonials 01" href="../../testimonials/index.html" data-ps2id-api="true">Testimonials 01</a></li>
+                                                            <li id="menu-item-1427" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1427"><a title="Testimonials 02" href="../../testimonials-two/index.html" data-ps2id-api="true">Testimonials 02</a></li>
+                                                            <li id="menu-item-1426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1426"><a title="Testimonials 03" href="../../testimonials-three/index.html" data-ps2id-api="true">Testimonials 03</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1446" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1446 dropdown"><a title="Services" href="../../service-two/index.html" data-ps2id-api="true">Services</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444"><a title="Services 01" href="../../service-two/index.html" data-ps2id-api="true">Services 01</a></li>
+                                                            <li id="menu-item-1445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1445"><a title="Services 02" href="../../service-style-one/index.html" data-ps2id-api="true">Services 02</a></li>
+                                                            <li id="menu-item-1461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1461"><a title="Service Details" href="../../service-details/index.html" data-ps2id-api="true">Service Details</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1483 dropdown"><a title="Gallery" href="../../portfolio-six/index.html" data-ps2id-api="true">Gallery</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1478"><a title="Gallery 01" href="../../portfolio-ten/index.html" data-ps2id-api="true">Gallery 01</a></li>
+                                                            <li id="menu-item-1482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1482"><a title="Gallery 02" href="../../portfolio-six/index.html" data-ps2id-api="true">Gallery 02</a></li>
+                                                            <li id="menu-item-1479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1479"><a title="Gallery 03" href="../../portfolio-nine/index.html" data-ps2id-api="true">Gallery 03</a></li>
+                                                            <li id="menu-item-1480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1480"><a title="Gallery 04" href="../../portfolio-eight/index.html" data-ps2id-api="true">Gallery 04</a></li>
+                                                            <li id="menu-item-1481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481"><a title="Gallery 05" href="../../portfolio-seven/index.html" data-ps2id-api="true">Gallery 05</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1333"><a title="Cumming Soon" href="../../cumming-soon/index.html" data-ps2id-api="true">Cumming Soon</a></li>
+                                                    <li id="menu-item-1413" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1413"><a title="404" href="../../404.html" data-ps2id-api="true">404</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1365 dropdown"><a title="Portfolio" href="../../portfolio-type-01/index.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart" data-ps2id-api="true">Portfolio</a>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-1711" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1711 dropdown"><a title="Portfolio Mix-Itup" href="#" data-ps2id-api="true">Portfolio Mix-Itup</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1713" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1713"><a title="Portfolio Mix 01" href="../../portfolio-nine/index.html" data-ps2id-api="true">Portfolio Mix 01</a></li>
+                                                            <li id="menu-item-1338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1338"><a title="Portfolio Mix 02" href="../../home-type-03/index.html" data-ps2id-api="true">Portfolio Mix 02</a></li>
+                                                            <li id="menu-item-1340" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1340"><a title="Portfolio Mix 03" href="../../home-type-05/index.html" data-ps2id-api="true">Portfolio Mix 03</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1710" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1710 dropdown"><a title="Portfolio Grid" href="#" data-ps2id-api="true">Portfolio Grid</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1349"><a title="Portfolio Grid 01" href="../../portfolio-type-01/index.html" data-ps2id-api="true">Portfolio Grid 01</a></li>
+                                                            <li id="menu-item-1350" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1350"><a title="Portfolio Grid 02" href="../../portfolio-type-02/index.html" data-ps2id-api="true">Portfolio Grid 02</a></li>
+                                                            <li id="menu-item-1351" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1351"><a title="Portfolio Grid 03" href="../../portfolio-type-03/index.html" data-ps2id-api="true">Portfolio Grid 03</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1709" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1709 dropdown"><a title="Portfolio Masonry" href="#" data-ps2id-api="true">Portfolio Masonry</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1352" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1352"><a title="Portfolio Masonry 01" href="../../portfolio-type-04/index.html" data-ps2id-api="true">Portfolio Masonry 01</a></li>
+                                                            <li id="menu-item-1353" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1353"><a title="Portfolio Masonry 02" href="../../portfolio-type-05/index.html" data-ps2id-api="true">Portfolio Masonry 02</a></li>
+                                                            <li id="menu-item-1342" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1342"><a title="Portfolio Masonry 03" href="../../home-type-07/index.html" data-ps2id-api="true">Portfolio Masonry 03</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li id="menu-item-1712" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1712 dropdown"><a title="Portfolio Single" href="#" data-ps2id-api="true">Portfolio Single</a>
+                                                        <ul role="menu" class="submenu">
+                                                            <li id="menu-item-1345" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1345"><a title="Portfolio Single 01" href="../../portfolio-single-01/index.html" data-ps2id-api="true">Portfolio Single 01</a></li>
+                                                            <li id="menu-item-1346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1346"><a title="Portfolio Single 02" href="../../portfolio-single-02/index.html" data-ps2id-api="true">Portfolio Single 02</a></li>
+                                                            <li id="menu-item-1347" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1347"><a title="Portfolio Single 03" href="../../portfolio-single-03/index.html" data-ps2id-api="true">Portfolio Single 03</a></li>
+                                                            <li id="menu-item-1348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1348"><a title="Portfolio Single 04" href="../../portfolio-single-04/index.html" data-ps2id-api="true">Portfolio Single 04</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1355" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children current_page_parent menu-item-1355 dropdown"><a title="Shop" href="../../shop/index.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart" data-ps2id-api="true">Shop</a>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-1693" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-1693"><a title="Shop" href="../../shop/index.html" data-ps2id-api="true">Shop</a></li>
+                                                    <li id="menu-item-1326" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1326"><a title="Cart" href="../../cart/index.html" data-ps2id-api="true">Cart</a></li>
+                                                    <li id="menu-item-1327" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1327"><a title="Checkout" href="../../checkout/index.html" data-ps2id-api="true">Checkout</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1364" class="mega-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1364 dropdown"><a title="Blog" href="../../blog-with-sidebar/index.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart" data-ps2id-api="true">Blog</a>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-1325" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1325"><a title="Blog Classic" href="../../blog-with-sidebar/index.html" data-ps2id-api="true">Blog Classic</a></li>
+                                                    <li id="menu-item-1498" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1498"><a title="Post Right Sidebar" href="../../collaborative-approach-is-the-basic-approach-6/index.html" data-ps2id-api="true">Post Right Sidebar</a></li>
+                                                    <li id="menu-item-1323" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1323"><a title="Blog Masonry" href="../../blog-grid-view/index.html" data-ps2id-api="true">Blog Masonry</a></li>
+                                                    <li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1496"><a title="Post Left Sidebar" href="../../collaborative-approach-is-the-basic-approach-5/index.html" data-ps2id-api="true">Post Left Sidebar</a></li>
+                                                    <li id="menu-item-1494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1494"><a title="Blog Grid" href="../../blog-style-04/index.html" data-ps2id-api="true">Blog Grid</a></li>
+                                                    <li id="menu-item-1497" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-1497"><a title="Post Full Width" href="../../1182/index.html" data-ps2id-api="true">Post Full Width</a></li>
+                                                    <li id="menu-item-1324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1324"><a title="Blog List" href="../../blog-list-view/index.html" data-ps2id-api="true">Blog List</a></li>
+                                                </ul>
+                                            </li>
+                                            <li id="menu-item-1502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1502 dropdown"><a title="Contact Us" href="../../contact/index.html" data-toggle="dropdown1" class="hvr-underline-from-left1" aria-expanded="false" data-scroll data-options="easing: easeOutQuart" data-ps2id-api="true">Contact Us</a>
+                                                <ul role="menu" class="submenu">
+                                                    <li id="menu-item-1366" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1366"><a title="Contact Us  01" href="../../contact/index.html" data-ps2id-api="true">Contact Us  01</a></li>
+                                                    <li id="menu-item-1332" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1332"><a title="Contact Us  02" href="../../contact-us-two/index.html" data-ps2id-api="true">Contact Us  02</a></li>
+                                                </ul>
+                                            </li>
+    
+                                        </ul>
+                                    </div>
+                                </nav>
+                                <!-- Main Menu End-->
+                            </div>
+                            <!--Nav Outer End-->
+                        </div>
+                    </div>
+                </header>
+                <!--End Main Header -->
+    
+    
+    
+    
+    
+    
+    
+                <section class="shop-single-section">
+                    <div class="auto-container">
+                        <div class="shop-page product-details">
+                            <div class="basic-details">
+                                <div class="row clearfix">
+    
+                                    <!-- sidebar area -->
+    
+                                    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sp-product-details">
+                                        <div class="woocommerce-notices-wrapper"></div>
+                                        <div id="product-650" class="post-650 product type-product status-publish has-post-thumbnail product_cat-clothing product_cat-t-shirts first instock taxable shipping-taxable purchasable product-type-simple">
+                                            <div class="row clearfix">
+                                                <div class="image-column col-md-5 col-sm-5 col-xs-12">
+                                                    <!-- <div class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+                                                        <figure class="woocommerce-product-gallery__wrapper">
+                                                            <div data-thumb="{% static 'wp-content/uploads/2018/12/5-100x100.png' %}" class="woocommerce-product-gallery__image">
+                                                                <a href="{% static 'wp-content/uploads/2018/12/5.png' %}"><img width="600" height="450" src="{% static 'wp-content/uploads/2018/12/5-600x450.png' %}" class="wp-post-image" alt="" title="5" data-caption="" data-src="{% static 'wp-content/uploads/2018/12/5.png' %}"
+                                                                        data-large_image="{% static 'wp-content/uploads/2018/12/5.png' %}" data-large_image_width="1000" data-large_image_height="750" srcset="{% static 'wp-content/uploads/2018/12/5-600x450.png' %} 600w, {% static 'wp-content/uploads/2018/12/5-300x225.png' %} 300w, {% static 'wp-content/uploads/2018/12/5-768x576.png' %} 768w, {% static 'wp-content/uploads/2018/12/5.png' %} 1000w"
+                                                                        sizes="(max-width: 600px) 100vw, 600px" /></a>
+                                                            </div>
+    
+                                                        </figure>
+                                                    </div> -->
+                                                    <img src="{% static 'wp-content/uploads/2018/12/5.png' %}" alt="">
+
+                                                </div>
+    
+    
+                                                <div class="info-column col-md-7 col-sm-7 col-xs-12">
+    
+                                                    <div class="details-header">
+                                                        <h4 itemprop="name" class="product_title entry-title">{{object.name}}</h4>
+                                                        <div class="rating">
+                                                        </div>
+                                                    </div>
+
+                                                    <!-- Item Location -->
+                                                    <div  class="item-price">
+                                                        <h4 itemprop="name" class="price"><i style="font-size: 14px;" class="fas fa-street-view"></i>  <a href="https://www.google.com/maps/search/?api=1&query={{object.venue}}"> {{object.venue}}</h4></a>
+                                                        <h4 itemprop="name" class="price"><i style="font-size: 14px;" class="fas fa-calendar-day"></i>  {{object.date}}</h4>
+                                                        <h4 itemprop="name" class="price"><i style="font-size: 14px;" class="far fa-clock"></i>  From {{object.timeStart}} mpaka {{object.timeEnd}}</h4>
+
+                                                        <div class="rating">
+                                                        </div>
+                                                    </div>
+                                                    <!-- Item Date -->
+                                                    <!-- <div  class="item-price">
+                                                        <h4 itemprop="name" class="price"><i class="fas fa-calendar-day"></i> - {{object.date}} From {{object.timeStart}} mpaka {{object.timeEnd}}</h4>
+                                                        <div class="rating">
+                                                        </div>
+                                                    </div>                                                     -->
+    
+                                                    <!--item-price-->
+                                                    <div class="item-price">
+                                                        <p class="price"><span class="woocommerce-Price-amount amount"><i class="fas fa-hand-holding-usd"></i><span class="woocommerce-Price-currencySymbol"> - Ksh </span>{{object.price|intcomma}}</span>
+                                                        </p>
+                                                    </div>
+    
+                                                    <!--Text-->
+                                                    <div class="text">
+                                                        <div class="woocommerce-product-details__short-description">
+                                                            <p>{{object.about}}</p>
+                                                        </div>
+                                                    </div>
+    
+                                                    <!--Item Quantity-->
+                                                    <div class="other-options clearfix">
+    
+                                                        <style>
+                                                            table {
+                                                                width: 100%;
+                                                            }
+                                                            
+                                                            table,
+                                                            th,
+                                                            td {
+                                                                border: 1px solid black;
+                                                                border-collapse: collapse;
+                                                            }
+                                                            
+                                                            th,
+                                                            td {
+                                                                padding: 15px;
+                                                                text-align: left;
+                                                            }
+                                                            
+                                                            table#t01 tr:nth-child(even) {
+                                                                background-color: #eee;
+                                                            }
+                                                            
+                                                            table#t01 tr:nth-child(odd) {
+                                                                background-color: #fff;
+                                                            }
+                                                            
+                                                            table#t01 th {
+                                                                background-color: black;
+                                                                color: white;
+                                                            }
+                                                        </style>
+                                                        </head>
+    
+                                                        <body>
+    
+                                                            <h2>Pick Your Ticket</h2>
+    
+                                                            <!-- <table>
+                                                                <tr>
+                                                                    <th>Firstname</th>
+                                                                    <th>Lastname</th>
+                                                                    <th>Age</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Jill</td>
+                                                                    <td>Smith</td>
+                                                                    <td>50</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>Eve</td>
+                                                                    <td>Jackson</td>
+                                                                    <td>94</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>John</td>
+                                                                    <td>Doe</td>
+                                                                    <td>80</td>
+                                                                </tr>
+                                                            </table> -->
+                                                            <!-- <br> -->
+    
+                                                            <table id="t01">
+                                                                <tr>
+                                                                    <th>Type</th>
+                                                                    <th>Price</th>
+                                                                    <th>From - To</th>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>{{object.name}}</td>
+                                                                    <td>Ksh {{object.price|intcomma}}</td>
+                                                                    <td>From {{object.timeStart}} mpaka {{object.timeEnd}} </td>
+                                                                </tr>
+                                                                <!-- <tr>
+                                                                    <td>Eve</td>
+                                                                    <td>Jackson</td>
+                                                                    <td>94</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>John</td>
+                                                                    <td>Doe</td>
+                                                                    <td>80</td>
+                                                                </tr> -->
+                                                            </table>
+                                                            <form class="cart" action="{% static 'rexal/product/happy-ninja-2/' %}" method="post" enctype='multipart/form-data'>
+    
+                                                                <!-- <div class="quantity" style="padding-right: 25px;">
+                                                                    <label class="screen-reader-text" for="quantity_5e565619f256c">Quantity</label>
+                                                                    <input type="number" id="quantity_5e565619f256c" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Happy Ninja quantity" />
+                                                                </div> -->
+    
+                                                                <button type="submit" name="add-to-cart" value="650" class="theme-btn btn-style-one add-to-cart">Add it</button>
+                                                                <button type="submit" name="add-to-cart" value="650" class="theme-btn btn-style-one add-to-cart">Buy it</button>
+    
+                                                            </form>
+    
+    
+                                                    </div>
+    
+                                                </div>
+                                                <div class="clearfix"></div>
+    
+
+                                                {% block scripts %}
+                                                <script type="text/javascript">
+                                                    var c = document.body.className;
+                                                    c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+                                                    document.body.className = c;
+                                                </script>
+                                                <script type='text/javascript'>
+                                                    /* <![CDATA[ */
+                                                    var wpcf7 = {
+                                                        "apiSettings": {
+                                                            "root": "http:\/\/www.d.commonsupport.com\/rexal\/wp-json\/contact-form-7\/v1",
+                                                            "namespace": "contact-form-7\/v1"
+                                                        }
+                                                    };
+                                                    /* ]]> */
+                                                </script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/contact-form-7/includes/js/scripts3c21.js' %}" ?ver=5.1.1' %}"></script>
+                                                <script type='text/javascript'>
+                                                    /* <![CDATA[ */
+                                                    var mPS2id_params = {
+                                                        "instances": {
+                                                            "mPS2id_instance_0": {
+                                                                "selector": "a[href*=#]:not([href=#])",
+                                                                "autoSelectorMenuLinks": "true",
+                                                                "scrollSpeed": 800,
+                                                                "autoScrollSpeed": "true",
+                                                                "scrollEasing": "easeInOutQuint",
+                                                                "scrollingEasing": "easeOutQuint",
+                                                                "pageEndSmoothScroll": "true",
+                                                                "stopScrollOnUserAction": "false",
+                                                                "autoCorrectScroll": "false",
+                                                                "layout": "vertical",
+                                                                "offset": 0,
+                                                                "highlightSelector": "",
+                                                                "clickedClass": "mPS2id-clicked",
+                                                                "targetClass": "mPS2id-target",
+                                                                "highlightClass": "mPS2id-highlight",
+                                                                "forceSingleHighlight": "false",
+                                                                "keepHighlightUntilNext": "false",
+                                                                "highlightByNextTarget": "false",
+                                                                "appendHash": "false",
+                                                                "scrollToHash": "true",
+                                                                "scrollToHashForAll": "true",
+                                                                "scrollToHashDelay": 0,
+                                                                "scrollToHashUseElementData": "true",
+                                                                "scrollToHashRemoveUrlHash": "false",
+                                                                "disablePluginBelow": 0,
+                                                                "adminDisplayWidgetsId": "true",
+                                                                "adminTinyMCEbuttons": "true",
+                                                                "unbindUnrelatedClickEvents": "false",
+                                                                "normalizeAnchorPointTargets": "false"
+                                                            }
+                                                        },
+                                                        "total_instances": "1",
+                                                        "shortcode_class": "_ps2id"
+                                                    };
+                                                    /* ]]> */
+                                                </script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min2745.js' %}" ?ver=1.6.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js' %}" ?ver=2.70' %}"></script>
+                                                <script type='text/javascript'>
+                                                    /* <![CDATA[ */
+                                                    var wc_add_to_cart_params = {
+                                                        "ajax_url": "\/rexal\/wp-admin\/admin-ajax.php",
+                                                        "wc_ajax_url": "\/rexal\/?wc-ajax=%%endpoint%%",
+                                                        "i18n_view_cart": "View cart",
+                                                        "cart_url": "http:\/\/www.d.commonsupport.com\/rexal\/cart\/",
+                                                        "is_cart": "",
+                                                        "cart_redirect_after_add": "no"
+                                                    };
+                                                    /* ]]> */
+                                                </script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min1aae.js' %} " ?ver=3.5.3' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js' %} " ?ver=2.1.4' %}"></script>
+                                                <script type='text/javascript'>
+                                                    /* <![CDATA[ */
+                                                    var woocommerce_params = {
+                                                        "ajax_url": "\/rexal\/wp-admin\/admin-ajax.php",
+                                                        "wc_ajax_url": "\/rexal\/?wc-ajax=%%endpoint%%"
+                                                    };
+                                                    /* ]]> */
+                                                </script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min1aae.js' %} " ?ver=3.5.3' %}"></script>
+                                                <script type='text/javascript'>
+                                                    /* <![CDATA[ */
+                                                    var wc_cart_fragments_params = {
+                                                        "ajax_url": "\/rexal\/wp-admin\/admin-ajax.php",
+                                                        "wc_ajax_url": "\/rexal\/?wc-ajax=%%endpoint%%",
+                                                        "cart_hash_key": "wc_cart_hash_9294718a5e23f0d3d6d7c9672c76cca9",
+                                                        "fragment_name": "wc_fragments_9294718a5e23f0d3d6d7c9672c76cca9"
+                                                    };
+                                                    /* ]]> */
+                                                </script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min1aae.js' %}" ?ver=3.5.3' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-includes/js/jquery/ui/core.mine899.js' %}" ?ver=1.11.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/appear58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/bootstrap.min58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/particles58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/app58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/countdown58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/isotope58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/jquery.bootstrap-touchspin58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/jquery.fancybox58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/jquery.mCustomScrollbar.concat.min58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/mixitup58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/multi-scroll58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/owl58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/respond58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/sticky58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/validate58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/themes/rexal/js/script58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript'>
+                                                    if (ajaxurl === undefined) var ajaxurl = "../wp-admin/admin-ajax.html";
+                                                </script>
+                                                <script type='text/javascript' src="{% static 'wp-includes/js/comment-reply.min58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-content/plugins/kingcomposer/assets/frontend/js/kingcomposer.min3b33.js' %}" ?ver=2.7.7' %}"></script>
+                                                <script type='text/javascript' src="{% static 'wp-includes/js/wp-embed.min58e0.js' %}" ?ver=5.1.4' %}"></script>
+                                                {% endblock %}
+                                                </body>
+
+

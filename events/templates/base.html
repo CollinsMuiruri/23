@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>23Ent</title>
+    {% include "../../static/partials/_sheets.html" %}
+</head>
+
+<body>
+    <p>jaja</p>
+
+    {% block content %}
+
+    <footer class="py-3 bg-grey">
+        <p class="m-0 text-dark text-center">Copyright &copy;2020 Proxy Services</p>
+    </footer>
+    {% endblock content %} {% include "../../partials/_scripts.html" %}
+</body>
+
+</html>

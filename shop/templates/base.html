@@ -1,0 +1,40 @@
+{% load static %}
+{% load bootstrap4 %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>{% block title %}For the webinar{% endblock %}</title>
+
+  {% block styles %}
+    <link href="{% static "css/base.css" %}" rel="stylesheet">
+    {% bootstrap_css %}
+  {% endblock %}
+</head>
+<body>
+  <h1 class='elegantshadow'>For the Webinar</h1>
+<div id="subheader">
+  <div class="cart">
+    {% with total_items=cart|length %}
+    {% if cart|length > 0 %}
+    Your cart:
+    <a href="{% url "cart:cart_detail" %}">
+      {{ total_items }} item{{ total_items|pluralize }},
+      Kshs{{ cart.get_total_price }}
+    </a>
+    {% else %}
+      Book Now
+     {% endif %}
+    {% endwith %}
+</div>
+</div>
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+    {% block scripts %}
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     {% bootstrap_javascript %}
+    {% endblock %}
+  </div>
+</body>
+</html>

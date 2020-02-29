@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+ {% load static %}
+ {% block content %}
+    <h1>Welcome aboard!</h1>
+    {% for e in events_list %}
+    <!-- {% if e %} -->
+    <button class="btn"><a href="{% url 'event_details' e.id %}">{{e.name}}</a></button><br>
+
+    <!--     {% else %}
+        <span>No Events available</span> -->
+    <!-- {% endif %} -->
+
+    {% endfor %}
+{% endblock %}
